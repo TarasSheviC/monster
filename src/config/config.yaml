@@ -1,0 +1,13 @@
+vk:
+  login_url: https://vk.com
+  community_search_url: https://vk.com/search?c[section]=communities&c[q]={interest}
+
+database:
+  path: vk_automation.db
+
+ai:
+  model: gpt2
+  max_length: 1000
+
+browser:
+  headless: true
