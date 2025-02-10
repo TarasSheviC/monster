@@ -1,0 +1,19 @@
+# Web Automation
+pyppeteer==1.0.2
+
+# AI Models
+transformers==4.18.0
+torch==1.11.0
+
+# Data Analysis
+pandas==1.4.2
+matplotlib==3.5.2
+
+# Database
+sqlite3-binary==0.1.0
+
+# YAML Configuration
+pyyaml==6.0
+
+# Logging
+loguru==0.6.0
