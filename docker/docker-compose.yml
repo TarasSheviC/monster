@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  vk-automation:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: vk_automation
+    env_file:
+      - ../.env
+    volumes:
+      - ../src:/app/src
+      - ../config:/app/config
+    ports:
+      - "5000:5000"
